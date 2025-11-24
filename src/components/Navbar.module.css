@@ -1,0 +1,16 @@
+.item {
+    height: 40px;
+    width: auto;
+    background-color: white;
+    cursor: pointer;
+    text-align: left;
+    padding: 10px 0 0 20px;
+    border-radius: 10px;
+}
+.item:hover{
+    background-color: rgb(67, 49, 109);
+    color: white;
+}
+.nav{
+    grid-area: n;
+}
