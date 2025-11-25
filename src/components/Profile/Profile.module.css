@@ -1,0 +1,12 @@
+.content {
+  grid-area: c;
+  display: flex;
+}
+.profile_pic {
+  width: 200px;
+  border-radius: 50%;
+  border: rgb(67, 49, 109) 2px dashed;
+}
+.info_list{
+  list-style-type: none;
+}

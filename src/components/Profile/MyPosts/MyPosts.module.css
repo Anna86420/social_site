@@ -1,0 +1,9 @@
+.wall{
+  display: flex;
+}
+.add_post{
+  display: flex;
+}
+.post{
+  display: flex;
+}
