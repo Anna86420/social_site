@@ -1,9 +1,9 @@
-const Post = () => {
+const Post = (props) => {
     return(
         <div>
             <img src="" />
-            post 1
-            <span>Like</span>
+                {props.message}
+            <span>{props.likes}</span>
         </div>
     )
 }
