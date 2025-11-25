@@ -1,7 +1,9 @@
 const Post = () => {
     return(
         <div>
-                Post 1
+            <img src="" />
+            post 1
+            <span>Like</span>
         </div>
     )
 }
