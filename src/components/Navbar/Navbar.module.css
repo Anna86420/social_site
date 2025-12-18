@@ -11,6 +11,10 @@
     background-color: rgb(67, 49, 109);
     color: white;
 }
+.item a{
+    color: white;
+    text-decoration: none;
+}
 .nav{
     grid-area: n;
 }

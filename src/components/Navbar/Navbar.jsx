@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import s from "./Navbar.module.css"
 const Navbar = () => {
     const handleClick = (event) => {
@@ -12,12 +13,13 @@ const Navbar = () => {
         
     return (
         <nav className={s.nav}>
-            <div className={s.item} onClick={handleClick}><a>Profile</a></div>
-            <div className={s.item} onClick={handleClick}><a>Messages</a></div>
-            <div className={s.item} onClick={handleClick}><a>Friends</a></div>
-            <div className={s.item} onClick={handleClick}><a>Courses</a></div>
-            <div className={s.item} onClick={handleClick}><a>Music</a></div>
-            <div className={s.item} onClick={handleClick}><a>Videos</a></div>
+            <div className={s.item} onClick={handleClick}><NavLink to="/profile">Profile</NavLink></div>
+            <div className={s.item} onClick={handleClick}><NavLink to="/messages">Messages</NavLink></div>
+            <div className={s.item} onClick={handleClick}><NavLink to="/friends">Friends</NavLink></div>
+            <div className={s.item} onClick={handleClick}><NavLink to='/courses'>Courses</NavLink></div>
+            <div className={s.item} onClick={handleClick}><NavLink to='/music'>Music</NavLink></div>
+            <div className={s.item} onClick={handleClick}><NavLink to='/videos'>Videos</NavLink></div>
+            <div className={s.item} onClick={handleClick}><NavLink to='/settings'>Settings</NavLink></div>
         </nav>
     )
 }
